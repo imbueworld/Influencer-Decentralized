@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+<<<<<<< HEAD
+=======
+  font-family: 'MyWebFont';
+>>>>>>> imbueworld/Influencer-Decentralized/master
 }
 
 .App-logo {
@@ -13,6 +17,58 @@
   }
 }
 
+<<<<<<< HEAD
+=======
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('./fonts/FontsFree-Net-Lulo-Clean-W01-One.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: 'TestFont';
+}
+
+.wallet-status {
+  position: absolute;
+  top: 55px;
+  display: inline-flex;
+  right: 400px;
+}
+
+.deactiveshow {
+  color: gray;
+}
+
+.event-input {
+  width: 294px !important;
+  font-size: 12px !important;
+  line-height: 17px !important;
+  border-radius: 0 !important;
+  border: none !important;
+  border-bottom: 1px solid #000000 !important;
+  box-shadow: none !important;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'MyWebFont';
+}
+
+.event-input:focus {
+  border:  none;
+}
+
+.event-input > input {
+  border: none;
+  box-shadow: none;
+  text-align: center;
+}
+
+.event-input > input:focus {
+  border: none;
+  box-shadow: none;
+}
+
+>>>>>>> imbueworld/Influencer-Decentralized/master
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -38,10 +94,17 @@
 }
 
 
+<<<<<<< HEAD
 .MyContainer div {
   margin: 10px auto;
   width: 80%;
 }
+=======
+/*.MyContainer div {
+  margin: 10px auto;
+  width: 80%;
+}*/
+>>>>>>> imbueworld/Influencer-Decentralized/master
 
 .centered {
 text-align: center;
@@ -55,6 +118,50 @@ margin-left: 400px;
 margin-right: 400px;
 margin-top: 100px;
 }
+<<<<<<< HEAD
+=======
+
+.wallet-button {
+  width: 190px;
+  height: 45px;
+  line-height: 45px;
+  display: inline-block;
+  font-size: 10px;
+  background: #242429;
+  text-align: center;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "LuloCleanW01-One";
+}
+
+.wallet-button:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.connect-button {
+  cursor: pointer;
+  width: 280px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  padding: 0px 15px;
+  text-decoration: none;
+  color: #000000;
+  border: 1px solid #d5d5d5;
+  background: #e5e5e5;
+  display: inline-block;
+  border-radius: 5px;
+  position: relative;
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+>>>>>>> imbueworld/Influencer-Decentralized/master
 .createWalletcentered {
   text-align: center;
   color: white;

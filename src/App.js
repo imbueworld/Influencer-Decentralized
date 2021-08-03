@@ -1,9 +1,14 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
+<<<<<<< HEAD
 import router from "./router";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+=======
+import "bootstrap/dist/css/bootstrap.min.css";
+import router from "./router";
+>>>>>>> imbueworld/Influencer-Decentralized/master
 
 export default class App extends Component {
   render() {
